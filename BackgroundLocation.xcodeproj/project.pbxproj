@@ -14,6 +14,10 @@
 		181DB8E01BCBBA5000218E2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181DB8DF1BCBBA5000218E2E /* Assets.xcassets */; };
 		181DB8E31BCBBA5000218E2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181DB8E11BCBBA5000218E2E /* LaunchScreen.storyboard */; };
 		1858AD211BCCDC6A00E40DDC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1858AD201BCCDC6A00E40DDC /* CoreLocation.framework */; };
+		1858AD271BCD125800E40DDC /* 屏幕快照 2015-10-13 下午5.18.23.png in Resources */ = {isa = PBXBuildFile; fileRef = 1858AD231BCD125800E40DDC /* 屏幕快照 2015-10-13 下午5.18.23.png */; settings = {ASSET_TAGS = (); }; };
+		1858AD281BCD125800E40DDC /* 屏幕快照 2015-10-13 下午5.18.35.png in Resources */ = {isa = PBXBuildFile; fileRef = 1858AD241BCD125800E40DDC /* 屏幕快照 2015-10-13 下午5.18.35.png */; settings = {ASSET_TAGS = (); }; };
+		1858AD291BCD125800E40DDC /* 屏幕快照 2015-10-13 下午5.18.54.png in Resources */ = {isa = PBXBuildFile; fileRef = 1858AD251BCD125800E40DDC /* 屏幕快照 2015-10-13 下午5.18.54.png */; settings = {ASSET_TAGS = (); }; };
+		1858AD2A1BCD125800E40DDC /* 屏幕快照 2015-10-13 下午5.19.26.png in Resources */ = {isa = PBXBuildFile; fileRef = 1858AD261BCD125800E40DDC /* 屏幕快照 2015-10-13 下午5.19.26.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		181DB8E21BCBBA5000218E2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		181DB8E41BCBBA5000218E2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1858AD201BCCDC6A00E40DDC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1858AD231BCD125800E40DDC /* 屏幕快照 2015-10-13 下午5.18.23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2015-10-13 下午5.18.23.png"; sourceTree = "<group>"; };
+		1858AD241BCD125800E40DDC /* 屏幕快照 2015-10-13 下午5.18.35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2015-10-13 下午5.18.35.png"; sourceTree = "<group>"; };
+		1858AD251BCD125800E40DDC /* 屏幕快照 2015-10-13 下午5.18.54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2015-10-13 下午5.18.54.png"; sourceTree = "<group>"; };
+		1858AD261BCD125800E40DDC /* 屏幕快照 2015-10-13 下午5.19.26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2015-10-13 下午5.19.26.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,7 @@
 		181DB8D21BCBBA5000218E2E /* BackgroundLocation */ = {
 			isa = PBXGroup;
 			children = (
+				1858AD221BCD123600E40DDC /* IMG */,
 				181DB8D61BCBBA5000218E2E /* AppDelegate.h */,
 				181DB8D71BCBBA5000218E2E /* AppDelegate.m */,
 				181DB8D91BCBBA5000218E2E /* ViewController.h */,
@@ -81,6 +90,17 @@
 				181DB8D41BCBBA5000218E2E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1858AD221BCD123600E40DDC /* IMG */ = {
+			isa = PBXGroup;
+			children = (
+				1858AD231BCD125800E40DDC /* 屏幕快照 2015-10-13 下午5.18.23.png */,
+				1858AD241BCD125800E40DDC /* 屏幕快照 2015-10-13 下午5.18.35.png */,
+				1858AD251BCD125800E40DDC /* 屏幕快照 2015-10-13 下午5.18.54.png */,
+				1858AD261BCD125800E40DDC /* 屏幕快照 2015-10-13 下午5.19.26.png */,
+			);
+			path = IMG;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +165,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1858AD2A1BCD125800E40DDC /* 屏幕快照 2015-10-13 下午5.19.26.png in Resources */,
+				1858AD281BCD125800E40DDC /* 屏幕快照 2015-10-13 下午5.18.35.png in Resources */,
 				181DB8E31BCBBA5000218E2E /* LaunchScreen.storyboard in Resources */,
 				181DB8E01BCBBA5000218E2E /* Assets.xcassets in Resources */,
+				1858AD291BCD125800E40DDC /* 屏幕快照 2015-10-13 下午5.18.54.png in Resources */,
 				181DB8DE1BCBBA5000218E2E /* Main.storyboard in Resources */,
+				1858AD271BCD125800E40DDC /* 屏幕快照 2015-10-13 下午5.18.23.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
