@@ -34,12 +34,15 @@ iOS从诞生到现在对应用的后台运行一直有所限制，了解苹果�
 ![把info.plist文件以xml源码的形式打开添加](https://raw.githubusercontent.com/yz--lmy/BackgroundLocation/master/BackgroundLocation/IMG/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202015-10-13%20%E4%B8%8B%E5%8D%885.18.54.png)
 由于info.plist文件实质是一段xml格式的文本，因此也可以以xml源码的方式直接添加键值，首先要以源码方式打开info.plist文件，打开方式如图。
 
-打开后添加键值<br>
-&lt;key&gt;UIBackgroundModes&lt;/key&gt; <br>
-	&lt;array&gt; <br>
-		 &lt;string&gt;location&lt;/string&gt; <br>
-	&lt;/array&gt;<br>
+打开后添加键值
+```
+ <key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+	</array>
+	```
 如下图：
 ![info.plist文件xml源码](https://raw.githubusercontent.com/yz--lmy/BackgroundLocation/master/BackgroundLocation/IMG/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202015-10-13%20%E4%B8%8B%E5%8D%885.19.26.png)
 
 这三种方式实际效果是一样的，只不过方式不同而已。
+
