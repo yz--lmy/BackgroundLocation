@@ -20,4 +20,26 @@ iOS从诞生到现在对应用的后台运行一直有所限制，了解苹果�
 
 
 ## 基于定位的后台运行Demo
-大多数后台模式（有限时长任务除外），都需要在info.plist中添加一个key，来声明该app在后台时要运行代码。当然使用定位后台模式也是需要的，
+大多数后台模式（有限时长任务除外），都需要在info.plist中添加一个key，来声明该app在后台时要运行代码。当然使用定位后台模式也是需要的，添加key的方式有以下三种，如图
+
+![直接在info.plist文件里面添加](https://raw.githubusercontent.com/yz--lmy/BackgroundLocation/master/BackgroundLocation/IMG/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202015-10-13%20%E4%B8%8B%E5%8D%885.18.35.png)
+主要步骤：1，点击项目；2，点击info.plist；3，点击“+”； 4，在出现的列表中，选择‘Required Background Modes’；
+选择后Xcode将会在该条目下创建一个数组，并含有一个空条目。点击该子条目右侧，并选择‘App registers for location updates’。在显示的列表中，还有其他的后台模式，当然也包含一些基于某些硬件的条目信息。
+
+![通过点击目标程序的Capabilities(功能)选项卡方式添加](https://raw.githubusercontent.com/yz--lmy/BackgroundLocation/master/BackgroundLocation/IMG/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202015-10-13%20%E4%B8%8B%E5%8D%885.18.23.png)
+通过点击目标程序的Capabilities(功能)选项卡方式添加，这种添加方式实际上是直接往info.plist添加key的一种快捷方法，效果是一样的，这一点通过如图中Steps后面的那段提示语可以看出。
+
+
+
+![把info.plist文件以xml源码的形式打开添加](https://raw.githubusercontent.com/yz--lmy/BackgroundLocation/master/BackgroundLocation/IMG/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202015-10-13%20%E4%B8%8B%E5%8D%885.18.54.png)
+由于info.plist文件实质是一段xml格式的文本，因此也可以以xml源码的方式直接添加键值，首先要以源码方式打开info.plist文件，打开方式如图。
+
+打开后添加键值
+<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+	</array>
+如下图：
+![info.plist文件xml源码](https://raw.githubusercontent.com/yz--lmy/BackgroundLocation/master/BackgroundLocation/IMG/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202015-10-13%20%E4%B8%8B%E5%8D%885.19.26.png)
+
+这三种方式实际效果是一样的，只不过方式不同而已。
