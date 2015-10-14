@@ -40,7 +40,7 @@ iOS从诞生到现在对应用的后台运行一直有所限制，了解苹果�
 	<array>
 		<string>location</string>
 	</array>
-	```
+```	
 如下图：
 ![info.plist文件xml源码](https://raw.githubusercontent.com/yz--lmy/BackgroundLocation/master/BackgroundLocation/IMG/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202015-10-13%20%E4%B8%8B%E5%8D%885.19.26.png)
 
