@@ -35,7 +35,7 @@ iOS从诞生到现在对应用的后台运行一直有所限制，了解苹果�
 由于info.plist文件实质是一段xml格式的文本，因此也可以以xml源码的方式直接添加键值，首先要以源码方式打开info.plist文件，打开方式如图。
 
 打开后添加键值
-```
+```xml
  <key>UIBackgroundModes</key>
 	<array>
 		<string>location</string>
